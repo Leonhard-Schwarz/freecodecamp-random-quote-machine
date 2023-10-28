@@ -45,4 +45,31 @@ body #quote-box .links {
 body #quote-box .links a {
   text-decoration: none;
   color: white;
-} 
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+  body #quote-box {
+    padding: 1rem;
+  }
+  body #quote-box h1 {
+    font-size: 1.5rem;
+  }
+  body #quote-box .links {
+    margin-top: 1rem;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  body #quote-box {
+    background-color: #f0f0f0;
+  }
+  body #quote-box .links a {
+    color: #000000;
+  }
+}
